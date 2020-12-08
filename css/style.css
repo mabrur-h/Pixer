@@ -89,7 +89,7 @@ body {
     line-height: 130%;
 }
 
-.promo-text {
+.section-text {
     padding: 16px 0;
     font-size: 16px;
     line-height: 24px;
@@ -106,11 +106,11 @@ body {
     padding: 56px 0;
 }
 
-.services .services-title {
+.section-title {
     font-size: 24px;
 }
 
-.services .promo-text {
+.services .section-text {
     width: 60%;
     text-align: center;
 }
@@ -145,6 +145,42 @@ body {
     font-size: 14px;
 }
 
+.how-we-work .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 56px 0;
+}
 
+.how-we-work .section-text {
+    text-align: center;
+    width: 60%;
+    padding-bottom: 16px;
+}
 
+.how-we-work .how-we-work-list {
+    padding-bottom: 40px;
+}
 
+.how-we-work .step {
+    display: flex;
+    align-items: center;
+}
+
+.how-we-work .step-description {
+    width: 85%;
+    padding-top: 8px;
+}
+
+.how-we-work li:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.how-we-work .step-image {
+    padding-right: 32px;
+}
+
+.how-we-work li:nth-child(even) .step-image {
+    padding-left: 32px;
+    padding-right: 0;
+}
