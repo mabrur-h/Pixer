@@ -352,6 +352,151 @@ body {
 
 @media screen and (max-width: 760px) {
     .container {
-        
+        width: 425px;
+    }
+
+    .section-text {
+        font-size: 14px;
+    }
+
+    .promo .main-btn {
+        padding: 10px 85px;
+    }
+
+    .promo .container {
+        flex-direction: column;
+    }
+
+    .promo .promo-text-wrapper {
+        width: 95%;
+        text-align: center;
+    }
+
+    .promo .promo-video {
+        width: 95%;
+        padding-top: 50px;
+    }
+
+    .services .section-text {
+        width: 90%;
+    }
+
+    .step .step-image {
+        width: 200px;
+    }
+
+    .services .services-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .services .main-btn {
+        padding: 10px 90px;
+        margin-bottom: 10px;
+    }
+
+    .how-we-work .section-text {
+        width: 90%;
+    }
+
+    .how-we-work .step {
+        padding: 10px 0;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .how-we-work .step-description {
+        width: 95%;
+        font-size: 14px;
+    }
+
+    .how-we-work .how-we-work-footer .main-btn {
+        padding: 10px 100px;
+    }
+
+    .footer .container {
+        text-align: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .footer .footer-list {
+        width: 40%;
+        padding: 10px 0;
+    }
+
+    .footer .footer-list .footer-list-text {
+        width: 100%;
+    }
+}
+
+@media (max-width: 425px) {
+    .container {
+        width: 320px;
+    }
+
+    .promo .promo-text-wrapper {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .promo .main-btn {
+        padding: 10px 70px;
+    }
+
+    .promo .promo-video {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    iframe {
+        padding-right: 0;
+    }
+
+    .step .step-image {
+        width: 120px;
+        padding-right: 0;
+    }
+
+    .how-we-work .step {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .how-we-work li:nth-child(even) {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .how-we-work li:nth-child(even) .step-image {
+        padding-left: 0;
+    }
+
+    .order-form .section-text {
+        width: 100%;
+    }
+
+    .order-form-row .main-btn {
+        margin: 0 5px;
+        margin-top: 5px;
+    }
+
+    .footer .footer-list {
+        text-align: left;
+    }
+
+    .footer .footer-list .footer-list-text {
+        font-size: 10px;
+        padding-top: 4px;
+    }
+
+    .footer-list .footer-list-title {
+        padding-bottom: 0;
+        font-size: 12px;
+    }
+
+    .footer-list .footer-list-item {
+        padding: 0;
     }
 }
