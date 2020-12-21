@@ -26,7 +26,7 @@ body {
 }
 
 .container {
-    width: 1140px;
+    width: 1140px !important;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -43,6 +43,16 @@ body {
 
 .btn-primary:hover {
     box-shadow: 0px 8px 10px 1px rgba(0,0,0,0.1);
+    transition: .4s;
+}
+
+.nav-link {
+    color: #191919 !important;
+}
+
+.nav-link:hover {
+    color: #00BAFC !important;
+    transition: .4s;
 }
 
 .header {
@@ -50,6 +60,7 @@ body {
     z-index: 1000;
     background-color: white;
     width: 100%;
+    box-shadow: 0px 0px 8px 10px rgba(0,0,0,0.09);
 }
 
 .main-btn {
@@ -302,19 +313,18 @@ body {
 
 @media screen and (max-width: 1140px) {
     .container, .container-fluid {
-        width: 960px;
+        width: 960px !important;
     }
 
     iframe {
         width: 100%;
-        padding-right: 20px;
     }
 
 }
 
 @media screen and (max-width: 960px) {
     .container, .container-fluid {
-        width: 760px;
+        width: 760px !important;
     }
 
     .topnav-icon, .nonhid {
@@ -328,7 +338,7 @@ body {
 
 @media screen and (max-width: 760px) {
     .container {
-        width: 425px;
+        width: 425px !important;
     }
 
     .section-text {
@@ -409,7 +419,7 @@ body {
 
 @media (max-width: 425px) {
     .container {
-        width: 320px;
+        width: 320px !important;
     }
 
     .promo .promo-text-wrapper {
