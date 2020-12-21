@@ -134,6 +134,10 @@ body {
     text-align: center;
 }
 
+.services ol, ul {
+    padding-left: 0;
+}
+
 .services .services-list {
     display: flex;
     flex-wrap: wrap;
