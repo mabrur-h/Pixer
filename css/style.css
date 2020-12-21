@@ -1,9 +1,9 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    list-style-type: none;
-    text-decoration: none;
+    box-sizing: border-box !important;
+    list-style-type: none !important;
+    text-decoration: none !important; 
 }
 
 html {
@@ -11,7 +11,7 @@ html {
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif !important;
 }
 
 .visually-hidden {
